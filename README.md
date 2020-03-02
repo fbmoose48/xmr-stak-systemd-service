@@ -1,10 +1,10 @@
 # xmr-stak-systemd-service
 Automated script run at boot manged by systemd
 
-1. Create "./start-service.sh" in /opt/xmr-stak/build/bin or other appropriate directory
+1. Create "./start-service.sh" in /opt/xmr-stak/build/bin or other appropriate directory /n
 cp ./start-service.sh /opt/xmr-stak/build/bin
 
-2. Create "/etc/systemd/system/xmr-stak.service"
+2. Create "/etc/systemd/system/xmr-stak.service" \n
 cp ./xmr-stak.service /etc/systemd/system/
 
 3. Provide necessary permissions to "start-service.sh"
