@@ -1,0 +1,12 @@
+[Unit]
+Description = xmr-stak
+After = network.target
+
+[Service]
+Type = simple
+PIDFile = /run/xmr-stak.pid
+ExecStart = /opt/xmr-stak/build/bin/start-service.sh
+ExecReload = /sbin/start-stop-daemon
+
+[Install]
+WantedBy = multi-user.target
