@@ -6,7 +6,8 @@ After = network.target
 Type = simple
 PIDFile = /run/xmr-stak.pid
 ExecStart = /opt/xmr-stak/build/bin/start-service.sh
-ExecReload = /sbin/start-stop-daemon
+Restart = on-failure
+ExecReload = /sbin/start-stop-daemon #determine if needed
 
 [Install]
 WantedBy = multi-user.target
