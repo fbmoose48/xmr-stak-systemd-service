@@ -30,6 +30,12 @@ sudo systemctl start xmr-stak.service
 sudo systemctl status xmr-stak.service
 
 
+If the unit file, source configuration file or drop-ins of xmr-stak.service changed on disk. Run 'systemctl daemon-reload' to reload units prior to service restart:
+
+sudo systemctl daemon-reload
+sudo systemctl restart xmr-stak.service
+
+
 To disable autorun at boot:
 
 sudo systemctl disable xmr-stak.service
