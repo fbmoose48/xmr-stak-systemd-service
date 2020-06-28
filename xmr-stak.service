@@ -5,7 +5,7 @@ After = network.target
 [Service]
 Type = simple
 PIDFile = /run/xmr-stak.pid
-ExecStart = /opt/xmr-stak/build/bin/start-service.sh
+ExecStart = /opt/xmr-stak-rx/build/bin/start-service.sh
 Restart = on-failure
 ExecReload = /sbin/start-stop-daemon #determine if needed
 
