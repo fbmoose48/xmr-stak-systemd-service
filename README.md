@@ -1,9 +1,9 @@
 # xmr-stak-systemd-service
 Automated script run at boot manged by systemd
 
-git clone https://github.com/fbmoose48/xmr-stak-systemd-service.git
+`git clone https://github.com/fbmoose48/xmr-stak-systemd-service.git`
 
-cd xmr-stak-systemd-service
+`cd xmr-stak-systemd-service`
 
 1. Create "./start-service.sh" in /opt/xmr-stak/build/bin or other appropriate directory
 
